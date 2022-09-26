@@ -1,3 +1,4 @@
+FROM ubuntu:20.04
 RUN mkdir -p /scripts
 COPY build.sh /scripts
 WORKDIR /scripts
